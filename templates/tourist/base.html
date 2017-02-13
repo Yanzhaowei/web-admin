@@ -1,0 +1,24 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/static/bootstrap/js/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/skin-blue.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+ <div class="wrapper">
+      <!-- head -->
+    {% include 'tourist/head.html' %}
+     <!-- aside -->
+     {% include 'tourist/leftmenu.html' %}
+     <!-- content -->
+     {% include 'tourist/content/content.html' %}
+ </div>
+</body>
+<script src="/static/js/app.js"></script>
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+</html>
